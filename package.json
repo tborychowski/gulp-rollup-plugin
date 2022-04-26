@@ -1,0 +1,23 @@
+{
+  "name": "gulp-best-rollup",
+  "version": "1.0.0",
+  "description": "gulp-best-rollup ================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tborychowski/gulp-best-rollup.git"
+  },
+  "keywords": [
+    "gulp",
+    "rollup"
+  ],
+  "author": "Tom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tborychowski/gulp-best-rollup/issues"
+  },
+  "homepage": "https://github.com/tborychowski/gulp-best-rollup#readme"
+}
