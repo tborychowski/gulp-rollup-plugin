@@ -14,15 +14,15 @@ import sourcemaps from 'gulp-sourcemaps';
 import rollup from 'gulp-best-rollup';
 
 export function js () {
-	return src('./src/index.js')
-		.pipe(sourcemaps.init())
-		.pipe(rollup({
-			plugins: [],
-		}, {
-			file: 'index.js',
-			format: 'esm',
-		}))
-		.pipe(sourcemaps.write(''))
-		.pipe(dest('dist'));
+    return src('./src/index.js')
+        .pipe(sourcemaps.init())
+        .pipe(rollup({
+            plugins: [],
+        }, {
+            file: 'index.js',
+            format: 'esm',
+        }))
+        .pipe(sourcemaps.write(''))
+        .pipe(dest('dist'));
 }
 ```
