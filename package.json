@@ -17,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/tborychowski/gulp-best-rollup/issues"
   },
-  "homepage": "https://github.com/tborychowski/gulp-best-rollup#readme"
+  "homepage": "https://github.com/tborychowski/gulp-best-rollup#readme",
+  "peerDependencies": {
+    "rollup": "^2.70.2"
+  },
+  "dependencies": {
+    "plugin-error": "^1.0.1",
+    "vinyl": "^2.2.1",
+    "vinyl-sourcemaps-apply": "^0.2.1"
+  }
 }

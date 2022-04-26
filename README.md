@@ -3,6 +3,8 @@ gulp-best-rollup
 
 Borrowed from [gulp-better-rollup](https://github.com/MikeKovarik/gulp-better-rollup) and upgraded to an ES module and Gulp v4.
 
+Disclaimer: This package works for me. If it doesn't work for you, feel free to fork it and make it work.
+
 ## Installation
 ```sh
 npm i -D rollup gulp-best-rollup

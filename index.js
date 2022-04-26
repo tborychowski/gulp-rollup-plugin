@@ -1,10 +1,9 @@
-/* global Buffer, process */
 'use strict';
 
 import { Transform } from 'stream';
+import path from 'path';
 import File from 'vinyl';
 import PluginError from 'plugin-error';
-import path from 'path';
 import applySourceMap from 'vinyl-sourcemaps-apply';
 import * as rollupModule from 'rollup';
 
