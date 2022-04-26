@@ -1,5 +1,5 @@
-gulp-best-rollup
-================
+gulp-rollup-plugin
+==================
 
 Borrowed from [gulp-better-rollup](https://github.com/MikeKovarik/gulp-better-rollup) and upgraded to an ES module and Gulp v4.
 
