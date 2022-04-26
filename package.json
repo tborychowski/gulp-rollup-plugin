@@ -6,7 +6,7 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tborychowski/gulp-best-rollup.git"
+    "url": "git+https://github.com/tborychowski/gulp-rollup-plugin.git"
   },
   "keywords": [
     "gulp",
@@ -15,9 +15,9 @@
   "author": "Tom",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tborychowski/gulp-best-rollup/issues"
+    "url": "https://github.com/tborychowski/gulp-rollup-plugin/issues"
   },
-  "homepage": "https://github.com/tborychowski/gulp-best-rollup#readme",
+  "homepage": "https://github.com/tborychowski/gulp-rollup-plugin#readme",
   "peerDependencies": {
     "rollup": "^2.70.2"
   },
