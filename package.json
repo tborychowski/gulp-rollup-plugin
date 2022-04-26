@@ -1,6 +1,6 @@
 {
   "name": "gulp-rollup-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gulp-Rollup plugin",
   "type": "module",
   "main": "index.js",
