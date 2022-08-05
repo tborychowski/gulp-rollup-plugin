@@ -7,7 +7,7 @@ import PluginError from 'plugin-error';
 import applySourceMap from 'vinyl-sourcemaps-apply';
 import * as rollupModule from 'rollup';
 
-const PLUGIN_NAME = 'gulp-better-rollup';
+const PLUGIN_NAME = 'gulp-rollup-plugin';
 let rollup = rollupModule;
 
 // map object storing rollup cache objects for each input file
@@ -172,8 +172,8 @@ class GulpRollup extends Transform {
 			.catch(err => {
 				if (inputOptions.cache !== false) rollupCache[inputOptions.input] = null;
 				process.nextTick(() => {
-					this.emit('error', new PluginError(PLUGIN_NAME, err));
-					cb(null, file);
+					// this.emit('error', new PluginError(PLUGIN_NAME, err));
+					cb(err, file);
 				});
 			});
 
