@@ -12,19 +12,16 @@ npm i -D rollup gulp-rollup-plugin
 
 ## Usage
 ```js
-import sourcemaps from 'gulp-sourcemaps';
 import rollup from 'gulp-rollup-plugin';
 
 export function js () {
-    return src('./src/index.js')
-        .pipe(sourcemaps.init())
+    return src('./src/index.js', { sourcemaps: true })
         .pipe(rollup({
             plugins: [],
         }, {
             file: 'index.js',
             format: 'esm',
         }))
-        .pipe(sourcemaps.write(''))
-        .pipe(dest('dist'));
+        .pipe(dest('dist', { sourcemaps: true }));
 }
 ```
