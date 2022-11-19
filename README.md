@@ -7,13 +7,13 @@ Disclaimer: This package works for me. If it doesn't work for you, feel free to 
 
 ## Installation
 ```sh
-npm i -D rollup gulp-best-rollup
+npm i -D rollup gulp-rollup-plugin
 ```
 
 ## Usage
 ```js
 import sourcemaps from 'gulp-sourcemaps';
-import rollup from 'gulp-best-rollup';
+import rollup from 'gulp-rollup-plugin';
 
 export function js () {
     return src('./src/index.js')
